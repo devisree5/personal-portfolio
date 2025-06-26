@@ -1,6 +1,3 @@
-Here's a professional `README.md` file for your GitHub repository:
-
-```markdown
 # Personal Portfolio Website
 
 
