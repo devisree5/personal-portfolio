@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="projects.html" class="active"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects-section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="i1.jpg" alt="E-commerce Website">
+                        <div class="project-overlay">
+                            <h3>E-commerce Website</h3>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>E-commerce Website</h3>
+                        <p>A fully responsive online store with product filtering and cart functionality developed during my Unified Mentor internship.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="i2.jpg" alt="Task Management App">
+                        <div class="project-overlay">
+                            <h3>Task Management App</h3>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Task Management App</h3>
+                        <p>A productivity app for organizing tasks with drag-and-drop functionality and local storage.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Local Storage</span>
+                            <span>CSS Grid</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="i3.jpg" alt="Weather Dashboard">
+                        <div class="project-overlay">
+                            <h3>Weather Dashboard</h3>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Weather Dashboard</h3>
+                        <p>Real-time weather information with 5-day forecast using the OpenWeather API.</p>
+                        <div class="project-tech">
+                            <span>API Integration</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> My Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
